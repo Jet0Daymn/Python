@@ -1,0 +1,9 @@
+n = int(input("перевод минут в часы и минуты : "))
+hour = n / 60
+if n < 60:
+    print (0)
+else:
+    print (int(hour))
+minutes = n % 60
+print (int(minutes))
+print (f"{int (hour)} часов, {int (minutes)} минут")
